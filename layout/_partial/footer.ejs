@@ -3,10 +3,12 @@
     <%- partial('_partial/sidebar') %>
   <% } %>
   <div class="outer">
-    <div id="footer-info" class="inner">
+    <div id="footer-info" class="inner right">
       <a href="<%- url_for() %>" class="logo"><%= config.title %></a>
-      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
+      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %> <br>
+      <%= config.subtitle %><br>
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
+    <div id="footer-star"></div>
   </div>
 </footer>

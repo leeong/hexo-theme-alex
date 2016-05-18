@@ -2,7 +2,7 @@
 menu:
   Home: /
   Archives: /archives
-  About: /about/index.html
+  About: /1990/05/03/about-me
 rss:
 github: https://github.com/leeong
 
@@ -11,7 +11,7 @@ excerpt_link: Read More
 fancybox: true
 
 # Sidebar
-sidebar: left
+sidebar: right
 widgets:
 - category
 - archive
@@ -27,7 +27,7 @@ links:
 
 # Miscellaneous
 google_analytics:
-favicon: /favicon.png
+favicon: /css/images/favicon.png
 twitter:
 google_plus:
 fb_admins:
