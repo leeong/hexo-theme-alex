@@ -1,8 +1,9 @@
 # Header
 menu:
   Home: /
+  # Categories: /categories
   Archives: /archives
-  About: /1990/05/03/about-me
+  About: /aboutme
 rss:
 github: https://github.com/leeong
 
@@ -16,7 +17,7 @@ widgets:
 - category
 - archive
 - recent_posts
-- tag
+# - tag
 - tagcloud
 - links
 
